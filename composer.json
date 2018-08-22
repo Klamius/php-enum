@@ -1,0 +1,35 @@
+{
+  "name": "klamius/php-enum",
+  "description": "A PHP library providing a way to work with enumeration",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "http://github.com/klamius/php-enum",
+  "keywords": [
+    "enum",
+    "enumeration",
+    "PHP enum",
+    "oop"
+  ],
+  "authors": [
+    {
+      "name": "Peter Yanni",
+      "homepage": "https://github.com/klamius"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Klamius\\Enum\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Klamius\\Enum\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8|^5.7|^6.0|^7.0|^8.0"
+  }
+}

@@ -1,0 +1,8 @@
+vendor
+docker
+composer.lock
+composer.phar
+phpunit.xml
+.DS_Store
+.idea
+coverage.clover
