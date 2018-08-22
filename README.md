@@ -2,6 +2,8 @@
 [![Build Status](https://travis-ci.org/Klamius/php-enum.png?branch=master)](https://travis-ci.org/Klamius/php-enum)
 [![Code Coverage](https://scrutinizer-ci.com/g/Klamius/php-enum/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/Klamius/php-enum/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Klamius/php-enum/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Klamius/php-enum/?branch=master)
+[![Total Downloads](https://poser.pugx.org/Klamius/php-enum/downloads.png)](https://packagist.org/packages/Klamius/php-enum)
+[![Latest Stable Version](https://poser.pugx.org/Klamius/php-enum/v/stable.png)](https://packagist.org/packages/Klamius/php-enum)
 
 ## Installation
 by using [composer](https://getcomposer.org/)
