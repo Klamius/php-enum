@@ -49,7 +49,8 @@ abstract class Enum
     private function setCacheArray()
     {
         if (!isset(static::$cache[\get_called_class()])) {
-            static::$cache[\get_called_class()] = (new \ReflectionClass(\get_called_class()))->getConstants();
+            $reflectionClass = new \ReflectionClass(\get_called_class());
+            static::$cache[\get_called_class()] = $reflectionClass->getConstants();
         }
     }
 
